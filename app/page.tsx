@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   // Número de WhatsApp de la líder
-  const whatsappNumber = "591XXXXXXXXX";
+  const whatsappNumber = "59169926759";
   const whatsappMessage = "¡Hola! Vengo de la página web y estoy interesado/a en comprar la gelatina funcional Inti.";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 

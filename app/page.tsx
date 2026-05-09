@@ -1,7 +1,7 @@
 "use client"; // Necesario para usar Framer Motion y hooks en Next.js App Router
 
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 export default function Home() {
   // Número de WhatsApp de la líder
@@ -14,11 +14,12 @@ export default function Home() {
     { nombre: "Evangelina Katherin Guzman Andrade", rol: "Investigación y Desarrollo", instagram: "https://instagram.com/" },
     { nombre: "Brehidy Milenka Pinto Robles", rol: "Investigación y Desarrollo", instagram: "https://instagram.com/" },
     { nombre: "Nathaly Ribera Macedo", rol: "Investigación y Desarrollo", instagram: "https://instagram.com/" },
-    { nombre: "Linnzy Valdez Rivero", rol: "Investigación y Desarrollo", instagram: "https://instagram.com/" },
+    { nombre: "Linnzy Valdez Rivero", rol: "Investigación y Desarrollo", instagram: "https://www.instagram.com/linnzy_y/" },
   ];
 
   // Configuración base para la animación de aparición (Fade In + Slide Up)
-  const fadeUpVariant = {
+  // Configuración base para la animación de aparición
+  const fadeUpVariant: Variants = {
     hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
   };

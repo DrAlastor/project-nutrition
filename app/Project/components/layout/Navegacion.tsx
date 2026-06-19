@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { whatsappLink } from '../../data/constants';
 
+import Image from 'next/image';
+
 export default function Navegacion() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,15 +19,13 @@ export default function Navegacion() {
           transition={{ duration: 0.5 }}
           className="flex items-center gap-3 cursor-pointer group"
         >
-          {/* Leaf icon as logo */}
-          <div className="w-11 h-11 bg-gradient-to-br from-yaku-green to-yaku-green-leaf rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all duration-300">
-            <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z" />
-            </svg>
-          </div>
-          <div className="flex flex-col">
-            <span className="font-serif font-extrabold text-2xl text-yaku-chocolate-dark tracking-tight leading-none">YAKU</span>
-            <span className="text-[9px] text-yaku-brown-warm tracking-[0.2em] uppercase font-medium leading-none mt-0.5">100% Natural</span>
+          <div className="relative w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all duration-300 bg-yaku-white">
+            <Image
+              src="/logo.png"
+              alt="YAKU Logo"
+              fill
+              className="object-contain"
+            />
           </div>
         </motion.a>
 

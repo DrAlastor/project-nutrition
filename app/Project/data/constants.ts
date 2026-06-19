@@ -9,6 +9,7 @@ export const equipo = [
   { nombre: "Brehidy Milenka Pinto Robles", rol: "Investigación y Desarrollo", instagram: "https://instagram.com/" },
   { nombre: "Nathaly Ribera Macedo", rol: "Investigación y Desarrollo", instagram: "https://instagram.com/" },
   { nombre: "Linnzy Valdez Rivero", rol: "Investigación y Desarrollo", instagram: "https://www.instagram.com/linnzy_y/" },
+  { nombre: "Geraldine Vargas Urapogui", rol: "Investigación y Desarrollo", instagram: "https://instagram.com/" },
 ];
 
 export const fadeUpVariant: Variants = {

@@ -6,7 +6,7 @@ import { fadeUpVariant, equipo } from '../../data/constants';
 
 export default function Equipo() {
   return (
-    <section id="equipo" className="w-full bg-yaku-white py-20 relative overflow-hidden">
+    <section id="equipo" className="w-full scroll-mt-20 bg-yaku-white py-20 relative overflow-hidden">
       {/* Decorative */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-yaku-cream rounded-full blur-3xl opacity-40" />
 
@@ -54,4 +54,5 @@ export default function Equipo() {
     </section>
   );
 }
+
 

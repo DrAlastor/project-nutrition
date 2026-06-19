@@ -49,7 +49,7 @@ const conceptos = [
 
 export default function Informacion() {
   return (
-    <section id="acerca-de" className="w-full bg-yaku-white py-20 relative overflow-hidden">
+    <section id="acerca-de" className="w-full scroll-mt-20 bg-yaku-white py-20 relative overflow-hidden">
       {/* Decorative corner */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-yaku-cream rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 opacity-60" />
 
@@ -143,4 +143,5 @@ export default function Informacion() {
     </section>
   );
 }
+
 

@@ -31,7 +31,7 @@ const propiedadesFOS = [
 
 export default function TablaNutricional() {
   return (
-    <section id="informe" className="w-full bg-yaku-chocolate-dark text-yaku-white py-20 overflow-hidden relative">
+    <section id="informe" className="w-full scroll-mt-20 bg-yaku-chocolate-dark text-yaku-white py-20 overflow-hidden relative">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-80 h-80 bg-yaku-brown/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-yaku-green/5 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
@@ -148,4 +148,5 @@ export default function TablaNutricional() {
     </section>
   );
 }
+
 

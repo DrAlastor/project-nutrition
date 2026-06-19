@@ -48,7 +48,7 @@ const beneficios = [
 
 export default function Beneficios() {
   return (
-    <section id="beneficios" className="w-full bg-gradient-to-b from-yaku-cream-light to-yaku-cream/30 py-20 relative overflow-hidden">
+    <section id="beneficios" className="w-full scroll-mt-20 bg-gradient-to-b from-yaku-cream-light to-yaku-cream/30 py-20 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-yaku-green/[0.02] rounded-full blur-3xl" />
       
@@ -92,4 +92,5 @@ export default function Beneficios() {
     </section>
   );
 }
+
 

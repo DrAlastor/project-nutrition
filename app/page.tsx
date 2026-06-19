@@ -11,7 +11,7 @@ import Equipo from './Project/components/sections/Equipo';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-yaku-white font-sans text-yaku-chocolate-dark overflow-hidden">
+    <main className="min-h-screen bg-yaku-white font-sans text-yaku-chocolate-dark overflow-x-hidden">
       <Navegacion />
       <InicioBienvenido />
       <Informacion />

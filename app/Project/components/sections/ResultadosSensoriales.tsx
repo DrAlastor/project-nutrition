@@ -33,11 +33,11 @@ function BarChart({ data, maxVal = 9 }: { data: typeof atributos[0]; maxVal?: nu
       {bars.map((bar, i) => (
         <motion.div
           key={bar.key}
-          className="flex flex-col items-center gap-1"
-          initial={{ height: 0 }}
-          whileInView={{ height: "auto" }}
+          className="flex flex-col items-center gap-1 h-full justify-end"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
-          transition={{ duration: 0.5, delay: i * 0.1 }}
+          transition={{ duration: 0.3, delay: i * 0.1 }}
         >
           <span className="text-[10px] font-bold text-yaku-chocolate-dark">{bar.val}</span>
           <motion.div
@@ -57,7 +57,7 @@ function BarChart({ data, maxVal = 9 }: { data: typeof atributos[0]; maxVal?: nu
 
 export default function ResultadosSensoriales() {
   return (
-    <section id="resultados" className="w-full bg-gradient-to-b from-yaku-cream-light to-yaku-white py-20 relative overflow-hidden">
+    <section id="resultados" className="w-full scroll-mt-20 bg-gradient-to-b from-yaku-cream-light to-yaku-white py-20 relative overflow-hidden">
       {/* Decorative */}
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-yaku-green/5 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
 
@@ -195,4 +195,5 @@ export default function ResultadosSensoriales() {
     </section>
   );
 }
+
 

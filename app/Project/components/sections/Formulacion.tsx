@@ -65,7 +65,7 @@ function DonutChart() {
 
 export default function Formulacion() {
   return (
-    <section id="formulacion" className="w-full bg-yaku-white py-20 relative overflow-hidden">
+    <section id="formulacion" className="w-full scroll-mt-20 bg-yaku-white py-20 relative overflow-hidden">
       {/* Decorative */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-yaku-cream rounded-full blur-3xl opacity-40 -translate-x-1/3 -translate-y-1/3" />
 
@@ -144,4 +144,5 @@ export default function Formulacion() {
     </section>
   );
 }
+
 

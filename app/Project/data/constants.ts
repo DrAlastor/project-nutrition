@@ -1,5 +1,5 @@
 export const whatsappNumber = "59169926759";
-export const whatsappMessage = "¡Hola! Vengo de la página web y estoy interesado/a en comprar la gelatina funcional Inti.";
+export const whatsappMessage = "¡Hola! Vengo de la página web y estoy interesado/a en comprar la gelatina saludable YAKU.";
 export const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
 export const equipo = [

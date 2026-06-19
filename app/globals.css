@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Paleta YAKU - Inspirada en el empaque */
+  --yaku-chocolate-dark: #3D2317;
+  --yaku-chocolate: #5C3A2E;
+  --yaku-brown: #8B5E3C;
+  --yaku-brown-warm: #A0845C;
+  --yaku-cream: #F5E6D3;
+  --yaku-cream-light: #FBF5EE;
+  --yaku-beige: #E8D5C0;
+  --yaku-sand: #D4C4A8;
+  --yaku-green-dark: #1E3F1A;
+  --yaku-green: #2D5A27;
+  --yaku-green-leaf: #4A7C44;
+  --yaku-green-light: #6B9E64;
+  --yaku-white: #FFFDF9;
+  --yaku-white-pure: #FFFFFF;
+
+  --background: var(--yaku-white);
+  --foreground: var(--yaku-chocolate-dark);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Custom YAKU colors for Tailwind */
+  --color-yaku-chocolate-dark: #3D2317;
+  --color-yaku-chocolate: #5C3A2E;
+  --color-yaku-brown: #8B5E3C;
+  --color-yaku-brown-warm: #A0845C;
+  --color-yaku-cream: #F5E6D3;
+  --color-yaku-cream-light: #FBF5EE;
+  --color-yaku-beige: #E8D5C0;
+  --color-yaku-sand: #D4C4A8;
+  --color-yaku-green-dark: #1E3F1A;
+  --color-yaku-green: #2D5A27;
+  --color-yaku-green-leaf: #4A7C44;
+  --color-yaku-green-light: #6B9E64;
+  --color-yaku-white: #FFFDF9;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: #8B5E3C;
+  color: #FFFDF9;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5E6D3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8B5E3C;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5C3A2E;
 }

@@ -10,7 +10,7 @@ const conceptos = [
     texto: "La inulina es un polisacárido presente de forma natural en el yacón. Los fructooligosacáridos (FOS) son oligosacáridos de fructosa con un grado de polimerización menor a 10, altamente solubles y con capacidad prebiótica. Son fermentados por bacterias benéficas en el colon, liberando ácidos grasos de cadena corta (AGCC) que mantienen la barrera intestinal.",
     icono: (
       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/>
+        <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z" />
       </svg>
     ),
     gradient: "from-yaku-green to-yaku-green-leaf",
@@ -81,7 +81,7 @@ export default function Informacion() {
           {/* Watermark */}
           <div className="absolute -bottom-8 -right-8 opacity-[0.04]">
             <svg className="w-40 h-40 text-yaku-green" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/>
+              <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z" />
             </svg>
           </div>
 
@@ -90,7 +90,7 @@ export default function Informacion() {
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-br from-yaku-brown to-yaku-chocolate rounded-xl flex items-center justify-center">
                   <svg className="w-5 h-5 text-yaku-cream" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/>
+                    <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z" />
                   </svg>
                 </div>
                 <h3 className="font-serif text-lg font-bold text-yaku-chocolate-dark">¿Por qué Yacón?</h3>
@@ -107,7 +107,7 @@ export default function Informacion() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                   </svg>
                 </div>
-                <h3 className="font-serif text-lg font-bold text-yaku-chocolate-dark">Innovación: Biofilización</h3>
+                <h3 className="font-serif text-lg font-bold text-yaku-chocolate-dark">Liofilización</h3>
               </div>
               <p className="text-yaku-chocolate/65 leading-relaxed text-sm">
                 <strong className="text-yaku-chocolate-dark">YAKU</strong> se presenta en polvo mediante biofilización (liofilización). Este proceso elimina entre 88-99% de la humedad mediante sublimación, conservando intactos los componentes funcionales del yacón y el colágeno, garantizando un producto con mayor durabilidad y el 100% de sus propiedades.
